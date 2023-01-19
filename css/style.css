@@ -1,3 +1,73 @@
+html {
+    margin-left: 177px;
+    margin-right: 177px;
+}
+
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.professionTitle {
+    font-size: 26px;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    height: 176px;
+}
+
+.navigationBar {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-aro;
+    list-style: none;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleAndNameContainer {
+    padding-top: 100px;
+}
+
+.heroName {
+    width: 540px;
+}
+
+.heroAboutMe {
+    width: 500px;
+}
+
+.aboutMeAndSocials {
+    display: flex;
+}
+
+.socialsAndPortrait {
+    display: flex;
+}
+
+.socialButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.heroPortrait img {
+    display: inline-block;
+    height: 600px;
+    border-radius: 205px 205px 0px 0px;
 }
